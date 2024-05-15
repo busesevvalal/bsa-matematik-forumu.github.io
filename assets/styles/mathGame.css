@@ -1,0 +1,45 @@
+
+#oyun-panel {
+  width: 600px;
+  background: #E8B298;
+  padding: 16px;
+  text-align: center;
+  margin: auto;
+}
+h1 {
+  margin: 0 0 16px 0;
+  border: solid 1px #e9f5db;
+  padding: 5px;
+  font-weight: 300;
+}
+span {
+  font-size: 125%;
+  padding: 10px;
+}
+#total {
+  width: 50px;
+}
+#reply {
+  margin-top: 10px;
+  padding: 5px;
+  border: none;
+  width: 100px;
+  background: #e9f5db;
+  color: #718355;
+}
+#reply:hover {
+  background: #8bc34a;
+}
+#tru,
+#fals {
+  font-size: 150%;
+  margin-top: 10px;
+  padding: 10px;
+  display: inline-block;
+}
+#tru {
+  background: #87986A;
+}
+#fals {
+  background: #d32f2f;
+}

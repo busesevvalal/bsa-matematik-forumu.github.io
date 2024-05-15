@@ -1,0 +1,38 @@
+ 
+
+  #board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    justify-content: center;
+  }
+
+  .cell {
+    width: 100px;
+    height: 100px;
+    font-size: 2em;
+    text-align: center;
+    line-height: 100px;
+    background-color: #535878;
+    cursor: pointer;
+    border: 2px solid #9DB0CE;
+    transition: background-color 0.3s ease;
+  }
+
+  .cell:hover {
+    background-color: #E9C2C5;
+  }
+
+  .player-x {
+    color: #ff0000; /* Red color for X */
+  }
+
+  .player-o {
+    color: #5c5ef1; /* Yellow color for O */
+  }
+
+  .game-over {
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+  }
